@@ -1,16 +1,28 @@
+body {
+  background-image: url('persia.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  color: white;
+  font-family: Ariel;
+}
+
 .grid {
   width: 400px;
   height: 600px;
-  background-image: url('background.png');
+  background-image: url('background.jpeg');
   position: relative;
   font-size: 100px;
   text-align: center;
 }
 
 .doodler {
-  width: 87px;
-  height: 85px;
-  background-image: url('doodler-guy.png');
+  width: 62px;
+  height: 73px;
+  background-image: url('war.png');
   position: absolute;
 }
 

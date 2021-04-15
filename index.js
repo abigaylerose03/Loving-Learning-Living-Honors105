@@ -126,7 +126,7 @@ function fall() {
     leftTimerId = setInterval(function () {
         if (doodlerLeftSpace >= 0) {
           console.log('going left')
-          doodlerLeftSpace -=5
+          doodlerLeftSpace -= 5
            doodler.style.left = doodlerLeftSpace + 'px'
         } else moveRight()
     },20)
@@ -142,7 +142,7 @@ function fall() {
       //changed to 313 to fit doodle image
       if (doodlerLeftSpace <= 313) {
         console.log('going right')
-        doodlerLeftSpace +=5
+        doodlerLeftSpace += 5
         doodler.style.left = doodlerLeftSpace + 'px'
       } else moveLeft()
     },20)
@@ -171,6 +171,7 @@ function fall() {
     isGameOver = true
     while (grid.firstChild) {
       console.log('remove')
+      document.querySelector('.grid').style.color = "white";
       grid.removeChild(grid.firstChild)
     }
     grid.innerHTML = score
