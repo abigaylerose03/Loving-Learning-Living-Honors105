@@ -1,4 +1,4 @@
-# Doodle-Jump
+# Adventures in Persia
 Doodle Jump clone in JavaScript, HTML and CSS
 
 ### MIT Licence
